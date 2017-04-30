@@ -1,8 +1,5 @@
-/var today = new Date();
-document.getElementById('time').innerHTML=today;
-
-
-
+var today = new Date();
+document.getElementById('dtText').innerHTML=today;
 
 
 
