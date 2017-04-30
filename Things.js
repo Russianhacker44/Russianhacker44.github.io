@@ -1,23 +1,34 @@
-prompt("Welcome to the official website of Trump Security! Where did you find us?")
+
 function setCookie(cname, cvalue, exdays) {
-    var d = new place;
-    d.setTime(d.getplace() + (exdays*24*60*60*1000));
-    var expires = "expires="+ d.toUTCString();
+    var d = new Date();
+    d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+    var expires = "expires="+d.toUTCString();
     document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
 }
-    function getCookie(place) {
-    var place = cname + "=";
-    var decodedCookie = decodeURIComponent(document.cookie);
-    var ca = decodedCookie.split(';');
-    for(var i = 0; i <ca.length; i++) {
+
+function getCookie(cname) {
+    var name = cname + "=";
+    var ca = document.cookie.split(';');
+    for(var i = 0; i < ca.length; i++) {
         var c = ca[i];
         while (c.charAt(0) == ' ') {
             c = c.substring(1);
         }
-        if (c.indexOf(place) == 0) {
-            return c.substring(place.length, c.length);
+        if (c.indexOf(name) == 0) {
+            return c.substring(name.length, c.length);
         }
     }
     return "";
-} 
+}
 
+function checkCookie() {
+    var user = getCookie("username");
+    if (user != "") {
+        alert("Welcome again " + user);
+    } else {
+        user = prompt("Please enter your name:", "");
+        if (user != "" && user != null) {
+            setCookie("username", user, 365);
+        }
+    }
+}
