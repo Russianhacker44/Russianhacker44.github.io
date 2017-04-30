@@ -17,9 +17,5 @@ h3 {
   text-align: center;
 }
 #b1 {
-  position:absolute;
-    bottom: 20%;
-    left:50%;
-    margin-left:-40px;
-    text-align:center;
+  margin: 0 auto;
 }
