@@ -40,3 +40,7 @@ h1 {
     0%   { transform: translate(0, 0); }
     100% { transform: translate(-100%, 0); }
 }
+#date-location { text-align:center; border: 1px solid #006699; padding: 4px; z-index: 2; }
+
+.date-font { color: #006699; font: 20px arial, sans-serif; font-weight: bold; }
+
