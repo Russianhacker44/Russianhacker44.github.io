@@ -1,4 +1,10 @@
 h1 {
 color: Purple;
 text-align: center;
+  font-size: 40px;
+}
+p { 
+  font-size: 25px;
+  color: Red
+    text-align: center;
 }
