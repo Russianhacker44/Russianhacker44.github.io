@@ -2,7 +2,7 @@
 
 var showdate	= "yes"  	// SHOW THE DATE | yes | no |
 
-   if (showdate == "yes") {
+   if (showdate === "yes") {
 document.write('<div id="date-location">');
 var d=new Date();
 var weekday=new Array('Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday');
