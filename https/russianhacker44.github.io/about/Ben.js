@@ -1,0 +1,1 @@
+Date.today().setTimezone("CST");
