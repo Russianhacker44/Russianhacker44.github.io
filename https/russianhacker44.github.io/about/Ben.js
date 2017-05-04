@@ -1,2 +1,2 @@
-Date.parse("today") 
-document.write(Date.parse())
+var Today = new Date.today();
+console.log(Date.today());
