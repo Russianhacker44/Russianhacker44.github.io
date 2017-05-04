@@ -8,7 +8,5 @@ p {
   color: Red;
     text-align: center;
  }
-date { text-align:center; border: 1px solid #006699; padding: 4px; z-index: 2; }
-
-date { color: #006699; font-size: 20px; font-weight: bold; }
+date { text-align:center; border: 1px solid #006699; padding: 4px; z-index: 2;  color: #006699; font-size: 20px; font-weight: bold; }
 
