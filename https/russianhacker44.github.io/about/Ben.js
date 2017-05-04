@@ -31,4 +31,4 @@ document.write ( month_names[current_date.getMonth()] );
 document.write ( " " + current_date.getDate() );
 document.write ( " " );
 document.write ( " " + current_date.getFullYear() );
-}
+
