@@ -1,2 +1,2 @@
-
-Date.today().setTimezone("CST");
+Date.parse("today") 
+document.write(Date.parse())
