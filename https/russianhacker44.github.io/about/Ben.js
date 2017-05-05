@@ -1,13 +1,14 @@
-window.addEventListener("load", todaysDate, false);
-function todaysDate(){
-var currentTime = new Date();
-var month = currentTime.getMonth() + 1;
-var day = currentTime.getDate();
-var year = currentTime.getFullYear();
+var showdate	= "yes"  	// SHOW THE DATE | yes | no |
 
-var completeDate = document.getElementById("footerSection");
-footerSection.innerHMTL = "Today's Date: " +completeDate;
-alert(month + "/" + day + "/" + year);
-
+   if (showdate == "yes") {
+document.write('<div id="date-location">');
+var d=new Date();
+var weekday=new Array('Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday');
+var monthname=new Array('January','February','March','April','May','June','July','August','September','October','November','December');
+document.write('<span class="date-font">' + weekday[d.getDay()] + ' ');
+document.write(monthname[d.getMonth()] + ' ');
+document.write(d.getDate() + '. ');
+document.write(d.getFullYear())
+document.write('<br></span>')
+document.write('</div>');
 }
-window.addEventListener("load", todaysDate, false);
