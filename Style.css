@@ -20,7 +20,8 @@ h1 {
 .date-font { color: #006699; font: 20px arial, sans-serif; font-weight: bold; }
 
 #About {
-  text-align:left; font: 20px arial, sans-serif;
+  text-align:left; font: 20px arial, sans-serif; color: white;
+  width: 300px; border: 10px white; height: 50%; background-color: black
 }
 
 .Background {
