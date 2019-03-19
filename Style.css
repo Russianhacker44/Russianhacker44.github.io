@@ -25,6 +25,7 @@ h1 {
 
 .Background {
   background-image: url("https://russianhacker44.github.io/https/russianhacker44.github.io/Background.jpeg");
+  background-repeat: no-repeat;
 }
 
 body {
