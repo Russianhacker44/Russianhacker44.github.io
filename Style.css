@@ -6,9 +6,10 @@ h1 {
  color: Red;
    font-size: 42px;
   text-align: center;
-  
-
 }
+
+
+
 #li1 { 
   font-size: 25px;
    font-family: Vendura;
@@ -20,4 +21,8 @@ h1 {
 
 .About {
   text-align:center; font: 20px arial, sans-serif;
+}
+
+.Background {
+  background-image: url("Background for website.jpg");
 }
