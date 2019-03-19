@@ -17,3 +17,7 @@ h1 {
 #date-location { text-align:center; border: 1px solid #006699; padding: 4px; z-index: 2; }
 
 .date-font { color: #006699; font: 20px arial, sans-serif; font-weight: bold; }
+
+.About {
+  text-align:center; font: 14 px arial, sans-sarif;
+}
