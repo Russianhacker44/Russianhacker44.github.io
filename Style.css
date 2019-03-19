@@ -22,6 +22,7 @@ h1 {
 #About {
   text-align:left; font: 20px arial, sans-serif; color: white; padding: 50px;
   width: 300px; border: 10px white; height: 1000px; background-color: black;
+  margin:0 auto
 }
 
 .Background {
