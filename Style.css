@@ -30,8 +30,10 @@ h1 {
 
 body {
   background-image: url("https://russianhacker44.github.io/https/russianhacker44.github.io/Background.jpeg");
+  background-repeat: no-repeat;
 }
 
 p {
   background-image: url("https://russianhacker44.github.io/https/russianhacker44.github.io/Background.jpeg");
+  background-repeat: no-repeat;
 }
