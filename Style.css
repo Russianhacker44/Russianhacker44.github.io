@@ -11,8 +11,12 @@ h1 {
 .flex-container {
   display: flex;
   flex-direction: column;
-  text-align:center; font: 20px arial, sans-serif; color: white;
-  width: 250px; border: 10px white; height: 750px; background-color: gray;
+  background-color: gray;
+}
+
+.flex-container > div {
+    text-align:center; font: 20px arial, sans-serif; color: white;
+  width: 250px; border: 10px white; height: 750px; background-color: #f1f1f1;
   margin:0 auto; float: center;
 }
 
