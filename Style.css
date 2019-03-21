@@ -24,7 +24,10 @@ h1 {
 .flex-text {
   position: relative;
   top: 50%;
+  bottom: 50%;
   transform: translateY(-50%); 
+  font-size: 20px; font-family: Vendura;
+  text-decoration: none;
 }
 
 #li1 { 
