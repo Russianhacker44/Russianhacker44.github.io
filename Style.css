@@ -15,9 +15,7 @@ h1 {
   width: 450px;  height: 400px; 
 }
 
-.verticalLine {
-  border-right: thick solid #ff0000; margin: 50px;
-}
+
 
 .flex-container > div {
     text-align:center; font: 20px arial, sans-serif; color: white;
