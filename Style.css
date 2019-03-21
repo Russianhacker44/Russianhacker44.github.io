@@ -10,8 +10,8 @@ h1 {
 
 .flex-container {
   display: flex;
-  flex-direction: column;
-  background-color: gray;
+  flex-direction: row;
+  background-image: url("https://russianhacker44.github.io/https/russianhacker44.github.io/Background1.png");
   width: 450px;  height: 400px;
 }
 
