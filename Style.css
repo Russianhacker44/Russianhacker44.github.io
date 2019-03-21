@@ -10,9 +10,13 @@ h1 {
 
 .flex-container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   background-image: url("https://russianhacker44.github.io/https/russianhacker44.github.io/Background1.png");
-  width: 450px;  height: 400px;
+  width: 450px;  height: 400px; 
+}
+
+.verticalLine {
+  border-right: thick solid #ff0000; margin: 50px;
 }
 
 .flex-container > div {
