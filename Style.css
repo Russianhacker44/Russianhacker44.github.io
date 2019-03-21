@@ -27,7 +27,7 @@ h1 {
   bottom: 50%;
   transform: translateY(-50%); 
   font-size: 20px; font-family: Vendura;
-  text-decoration: none; color:black;
+  text-decoration: none; color:white; background-color:black; padding:20px;
 }
 
 #li1 { 
