@@ -28,7 +28,7 @@ h1 {
 .flex-container > div {
     text-align:center; font: 20px arial, sans-serif; color: white;
   width: 200px; border: 10px white; height: 150px; url("https://russianhacker44.github.io/https/russianhacker44.github.io/Background1.png");
-  margin:0 auto; float: left; margin: 10px; 
+  margin:0 auto; float: left; margin: 100px; 
 }
 
 .flex-text {
