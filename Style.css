@@ -52,7 +52,7 @@ h1 {
 #About {
   text-align:center; font: 20px arial, sans-serif; color: white;
   width: 100px; border: 10px white; height: 100px; background-color: gray;
-  margin:0 auto; float: left;
+  margin:0; float: left;
 }
 
 .Background {
